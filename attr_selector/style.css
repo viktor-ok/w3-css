@@ -1,0 +1,81 @@
+/*Examples attribute selector*/
+a[target] {
+    background-color: #1abc9c;
+}
+
+a[target="_top"] {
+    background-color: yellow;
+}
+
+/*----------------------------------*/
+div.im {
+    background-color: #99ccff;
+    border: 1px solid #1a1a1a;
+    padding: 50px 70px;
+    margin: 10px;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    float: left;
+}
+
+div.container::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*que se encuentre dentro de la frase*/
+div[title~="flower"] {
+    border: 2px solid red;
+}
+/*----------------------------------*/
+
+/*valor exacto*/
+[class|="top"] {
+    background-color: #1abc9c;
+}
+/*----------------------------------*/
+
+/*al inicio */
+[class^="bot"] {
+    background-color: #3399ff;
+}
+/*----------------------------------*/
+
+/*al final*/
+[class$="test"] {
+    background-color: #ff9999;
+}
+/*----------------------------------*/
+
+/*todas las class que contenga "ba" en cualquier orden*/
+[class*="ba"] {
+    background-color: lightseagreen;
+}
+/*----------------------------------*/
+
+/*design form*/
+input[type="text"] {
+    width: 200px;
+    display: block;
+    margin-bottom: 14px;
+    background-color: #99ccff;
+    padding: 7px;
+}
+
+input[type="button"] {
+    width: 150px;
+    margin-left: 25px;
+    display: block;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: #0073e6;
+    color: #fafafa;
+}
+
+input[type="button"]:hover {
+    background-color: #004080;
+    cursor: pointer;
+}
+/*----------------------------------*/

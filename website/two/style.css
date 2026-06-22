@@ -1,0 +1,89 @@
+/*css*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header info logo etc*/
+.header {
+    padding: 22px;
+    text-align: center;
+    color: #0073e6;
+    background-color: #99ccff;
+}
+
+.header > p {
+    color: #0073e6;
+}
+
+/*nav bar*/
+.topnav {
+    overflow: hidden;
+    background-color: #004080;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    padding: 19px 24px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.topnav a:hover {
+    color: #dddddd;
+    background-color: #99ccff;
+}
+
+/*content text*/
+.column {
+    float: left;
+    padding: 16px;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.middle {
+    width: 50%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*text info*/
+h2 {
+    color: #004080;
+    text-align: center;
+}
+
+p {
+    color: #606060;
+    text-justify: auto;
+}
+
+/*footer */
+.footer {
+    background-color: #99ccff;
+    padding: 12px;
+    text-align: center;
+}
+
+.footer > p {
+    color: #0073e6;
+}
+
+@media screen and (max-width: 600px)  {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}

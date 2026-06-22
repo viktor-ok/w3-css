@@ -1,0 +1,22 @@
+
+p.one {
+    border: 2px solid #000;
+    outline: 10px solid #4caf50;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+p.two {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+}
+p.three {
+    border: 2px solid orange;
+    outline-style: solid;
+    outline-color: #0000ff;
+}
+p.four {
+    outline: 5px dotted green;
+}

@@ -1,0 +1,42 @@
+/*first image*/
+h2 {
+    color: rebeccapurple;
+    position: relative;
+    left: 30px;
+}
+p.t {
+    position: relative;
+    left: 30px;
+}
+p.one img {
+    float: right;
+    border: 1px solid #cccccc;
+}
+
+/*second image*/
+p.two img {
+    float: left;
+    border: 1px solid #cccccc;
+}
+
+/*third image*/
+p.three img {
+    float: none;
+    border: 1px solid #cccccc;
+}
+
+/*div elements*/
+.d1 {
+    background-color: lightcoral;
+}
+.d2 {
+    background-color: lightgreen;
+}
+.d3 {
+    background-color: lightblue;
+    margin-bottom: 200px;
+}
+div.d1, div.d2, div.d3 {
+    float: left;
+    padding: 25px;
+}

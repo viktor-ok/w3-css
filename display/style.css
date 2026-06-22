@@ -1,0 +1,25 @@
+/* li element in inline level */
+ul.d1 li {
+    display: inline;
+}
+
+/* span element in block level */
+span {
+    display: block;
+}
+
+/* <a> elements as block level */
+a.d2 {
+    display: block;
+}
+
+/* h2 invisible  */
+h2.d3 {
+    display: none;
+}
+
+/* h2 invisible hidden */
+h2.d4 {
+    visibility: hidden;
+}
+

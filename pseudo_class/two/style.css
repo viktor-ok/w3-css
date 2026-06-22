@@ -1,0 +1,44 @@
+/* selector root */
+:root {
+    background-color: #ccc;
+}
+
+/* input checked */
+input:checked {
+    width: 30px;
+    height: 30px;
+}
+
+/* selector :enabled */
+input[type=text].one:enabled {
+    background-color: lightblue;
+}
+input[type=text].two:disabled{
+    background-color: #ddd;
+}
+
+/* selector fucus */
+input:focus {
+    background-color: yellow;
+}
+
+/* selector in-range */
+input:in-range {
+    border: 2px solid orange;
+}
+
+/* selector invalid */
+input:invalid {
+    border: 2px solid red;
+}
+
+/* selector valid */
+input:valid.vli {
+    background-color: lightgreen;
+}
+
+/* target selector */
+:target {
+    border: 2px solid darkblue;
+    background-color: lightblue;
+}

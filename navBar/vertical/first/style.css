@@ -1,0 +1,41 @@
+/* first navBar */
+ul.one {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    position: fixed; /* Make it stick, even on scroll */
+    height: 98%; /* Full height */
+    overflow: auto;  /* Enable scrolling if the sidenav has too much content */
+}
+.one li a {
+    display: block;
+    color: #000;
+    background-color: #ddd;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: tahoma, Arial, Helvetica, sans-serif;
+}
+.one li {
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+.one li:last-child {
+    border-bottom: none;
+}
+.one a.active {
+    color:  white;
+    background-color: #04AA6D;
+}
+.one li a:hover:not(.active) {
+    color: #fafafa;
+    background-color: #555;
+}
+/* content body */
+.content {
+    margin-left: 15%;
+    padding: 1px 30px;
+    height: 1000px;
+}

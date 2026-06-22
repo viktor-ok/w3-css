@@ -1,0 +1,21 @@
+p.one {
+    border: 2px solid red;
+    border-radius: 1px;
+    padding: 0.7rem;
+}
+p.two {
+    border: 3px solid green;
+    border-radius: 5px;
+    padding: 0.7rem;
+}
+p.three {
+    border: 3px solid blue;
+    border-radius: 8px;
+    padding: 0.7rem;
+}
+p.four {
+    border: 3px solid orange;
+    border-radius: 10px;
+    padding: 0.7rem;
+}
+

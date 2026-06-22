@@ -1,0 +1,48 @@
+/* Center vertically with padding */
+div.center {
+    border: 4px solid green;
+    padding: 50px 0;
+}
+
+/* Center with padding and text-align */
+div.center2 {
+    border: 5px solid orange;
+    padding: 70px 0;
+    text-align: center;
+}
+
+/* Center with line-height */
+div.center3 {
+    height: 200px;
+    border: 6px solid purple;
+    text-align: center;
+    line-height: 200px;
+}
+div.center3 p {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+/* Center with position and transform */
+div.center4 {
+    border: 5px dashed violet;
+    height: 200px;
+    position: relative;
+}
+div.center4 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Flexbox Centering */
+div.center5 {
+    display: flex;
+    border: 5px solid darkred;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}

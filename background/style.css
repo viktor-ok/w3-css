@@ -1,0 +1,20 @@
+#basic {
+    background-color: lightblue;
+    border: 2px solid lightblue;
+    padding: 2rem;
+    text-align: center;
+}
+.opaco {
+    background-color: rgb(21, 105, 177);
+    border: 2px solid rgb(21, 105, 177);
+    padding: 2rem;
+    text-align: center;
+    opacity: 0.4;
+}
+.transrgba {
+    background-color: rgba(21, 105, 177, 0.4);
+    border: 2px solid rgb(21, 105, 177);
+    padding: 2rem;
+    text-align: center;
+}
+

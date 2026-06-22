@@ -1,0 +1,34 @@
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+}
+
+#navlist li,  #navlist a {
+    height: 104px;
+    display: block;
+}
+
+#one {
+    left: 0;
+    width: 77px;
+    background: url("./images/sprite_move.png") 0 0;
+}
+
+#two {
+    left: 90px;
+    width: 77px;
+    background: url("./images/sprite_move.png") -79px 0;
+}
+
+#three {
+    left: 180px;
+    width: 77px;
+    background: url("./images/sprite_move.png") 180px 0;
+}

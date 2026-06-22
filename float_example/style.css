@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+/* navegation menu */
+ul.nav1 {
+    list-style-type: none;
+    margin: 0 0 100px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: dodgerblue;
+}
+ul li.li1 {
+    float: left;
+}
+ul li.li1 a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+ul li.li1 a:hover {
+    background-color: #fafafa;
+    color: darkblue;
+}
+ul li.active {
+    background-color: blue;
+}
+
+/* first example */
+.b1 {
+    background-color: #eeeeee;
+}
+.b2 {
+    background-color: #dddddd;
+}
+.b3 {
+    background-color: #cccccc;
+}
+
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* second example */
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 2px solid darkgreen;
+}
+.clearfix2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ /* tercer ejemplo */
+.bg1 {
+    background-color: #dddddd;
+}
+.bg2 {
+    background-color: #cccccc;
+}
+.box3 {
+    float: left;
+    width: 50%;
+    padding: 50px;
+    height: 300px;
+}
+.clearfix3::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* four example */
+.flex-container .box4 {
+    background-color: #eeeeee;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #3399ff;
+}
+
+/* new web page last example float */
+.header, .footer {
+    padding: 17px;
+    color: white;
+    background-color: darkcyan;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix5::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: darkcyan;
+    color: white;
+}

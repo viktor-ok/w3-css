@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    display:  inline-block;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content .msg {
+    text-align: center;
+    padding: 20px;
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+}
+
+.container:hover .content {
+    display: block;
+}

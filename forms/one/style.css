@@ -1,0 +1,57 @@
+/* 1 input */
+input[value="John"] {
+    width: 100%;
+    padding: 10px 5px;
+    outline: none;
+}
+
+input[value="John"]:focus {
+    background-color: lightcyan;
+}
+
+/* 2 inputs */
+input[type="text"] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 8px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+/* border botton */
+input[name="name"] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 19px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+/* background input */
+input[value="maria"] {
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border: none;
+    color: #fff;
+    background-color: lightblue;
+}
+
+/* border focus */
+input[type="number"] {
+    width: 100%;
+    margin: 8px 0;
+    padding:  12px 20px;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    outline: none;
+}
+
+input[type="number"]:focus {
+    border: 3px solid #555;
+}

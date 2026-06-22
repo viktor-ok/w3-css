@@ -1,0 +1,27 @@
+table.one, th.one, td.one {
+    border: 1px solid blue;
+}
+
+table.two, th.two, td.two {
+    border: 1px solid red;
+}
+table.two {
+    width: 100%;
+}
+
+table.t, th.t, td.t {
+    border: 1px solid black;
+}
+table.t {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.f {
+    border: 1px solid;
+    width: 25%;
+}
+
+table.f th {
+    text-align: left;
+}

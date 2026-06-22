@@ -1,0 +1,43 @@
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.btn {
+    padding: 20px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    color: #f1f1f1;
+    background-color: #004080;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content a {
+    display: block;
+    padding: 9px 18px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.content a:hover {
+    color: #ffffff;
+    background-color: #0073e6;
+}
+
+.container:hover .content {
+    display: block;
+}
+
+.container:hover .btn {
+    background-color: blue;
+}

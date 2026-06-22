@@ -1,0 +1,38 @@
+div.four {
+    border: 2px solid blue;
+    background-color: lightblue;
+    padding: 25px 50px 75px 100px;
+}
+div.three {
+    border: 2px solid green;
+    background-color: lightgreen;
+    padding: 25px 50px 75px;
+}
+div.two {
+    border: 2px solid red;
+    background-color: lightcoral;
+    padding: 25px 50px;
+}
+div.one {
+    border: 2px solid orange;
+    background-color: lightpink;
+    padding: 25px;
+}
+
+/* Padding and Width */
+div.width-one {
+    width: 300px;
+    background-color: lightgreen;
+}
+div.width-two {
+    width: 300px;
+    background-color: lightseagreen;
+    padding: 25px;
+}
+div.width-border-box {
+    width: 300px;
+    padding: 25px;
+    border: 4px solid green;
+    background-color: lightseagreen;
+    box-sizing: border-box;
+}

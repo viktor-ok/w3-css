@@ -1,0 +1,19 @@
+table.one, th, td {
+    border: 1px solid #000;
+}
+table.one {
+    width: 100%;
+    border-collapse: collapse;
+}
+table.one th {
+    height: 70px;
+}
+
+table.t, th.t, td.t {
+    border: 1px solid blue;
+    width: 50%;
+    border-collapse: collapse;
+}
+table.t td.t {
+    height: 30px;
+}

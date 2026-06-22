@@ -1,0 +1,137 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Float Examples</title>
+</head>
+
+<body>
+
+    <!--nav menu-->
+    <ul class="nav1">
+        <li class="li1 active"><a href="#">Home</a></li>
+        <li class="li1"><a href="#">News</a></li>
+        <li class="li1"><a href="#">About</a></li>
+        <li class="li1"><a href="#">Contact</a></li>
+    </ul>
+
+    <h2>Grid of Boxes</h2>
+    <p>Float boxes side by side:</p>
+
+    <div class="clearfix">
+        <div class="box b1">
+            <p>Some text inside the box.</p>
+        </div>
+        <div class="box b2">
+            <p>Some text inside the box.</p>
+        </div>
+        <div class="box b3">
+            <p>Some text inside the box.</p>
+        </div>
+    </div>
+    <p>
+        <strong>Note:</strong> Here, we use the clearfix hack to take care of the layout flow.
+        We also use the box-sizing property to make sure that the box doesn't break due to extra padding.
+        Try to remove this code to see the effect.
+    </p>
+    <br>
+    <hr>
+
+    <h2>Images Side by Side</h2>
+    <p>Float images side by side:</p>
+
+    <div class="clearfix2">
+        <div class="img-container">
+            <img src="../float_clear/images/rubia_4.jpeg" alt="Italy" style="width:100%">
+        </div>
+        <div class="img-container">
+            <img src="../float_clear/images/rubia_4.jpeg" alt="Forest" style="width:100%">
+        </div>
+        <div class="img-container">
+            <img src="../float_clear/images/rubia_4.jpeg" alt="Mountains" style="width:100%">
+        </div>
+    </div>
+
+    <p>
+        Note that we also use the clearfix hack to take care of the layout flow, and that we add the box-sizing
+        property to make sure that the image container doesn't break due to extra padding.
+        Try to remove this code to see the effect.
+    </p>
+    <br>
+    <hr>
+
+    <h2>Equal Height Boxes</h2>
+    <p>Floating boxes with equal heights:</p>
+
+    <div class="clearfix3">
+        <div class="box3 bg1">
+            <h2>Box 1</h2>
+            <p>Some content, some content, some content</p>
+        </div>
+        <div class="box3 bg2">
+            <h2>Box 2</h2>
+            <p>Some content, some content, some content</p>
+            <p>Some content, some content, some content</p>
+            <p>Some content, some content, some content</p>
+        </div>
+    </div>
+
+    <p>
+        This example not very flexible. It is ok to use CSS height if you can guarantee that
+        the boxes will always have the same amount of content in them, but that's not always the case.
+        If you try the example above on a mobile phone (or resize the browser window),
+        you will see that the second box's content will be displayed outside of the box.
+    </p>
+    <p>Go back to the tutorial and find another solution, if this is not what you want.</p>
+    <br>
+    <hr>
+
+    <h1>Flexible Boxes</h1>
+
+    <div class="flex-container">
+        <div class="box4">
+            Box 1 - This is some text to make sure that the content gets really tall.
+            This is some text to make sure that the content gets really tall.
+        </div>
+        <div class="box4">Box 2 - My height will follow Box 1.</div>
+    </div>
+
+    <p>Try to resize the browser window to see the flexible layout.</p>
+    <p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or earlier versions.</p>
+    <br>
+    <hr>
+
+    <!--new web page-->
+    <div class="header">
+        <h1>Chania</h1>
+    </div>
+
+    <div class="clearfix5">
+        <div class="column menu">
+            <ul>
+                <li>The Flight</li>
+                <li>The City</li>
+                <li>The Island</li>
+                <li>The Food</li>
+            </ul>
+        </div>
+
+        <div class="column content">
+            <h1>The City</h1>
+            <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts,
+                the
+                old town and the modern city.</p>
+            <p>You will learn more about web layout and responsive web pages in a later chapter.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Footer Text</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+/* 
+ * por default esta imagen se repite 
+ * Background Repeat 
+ */
+body {
+    /* ser repite por default */
+    background-image: url("images/retoño.jpeg");
+    
+    /* se repite horizontal */
+    /* background-repeat: repeat-x; */
+    
+    /* se repite vertical */
+    /* background-repeat: repeat-y; */
+    
+    /* se repite solo una vez */
+    /* background-repeat: no-repeat; */
+    
+    /* se repite una vez en posicion derecha arriba */
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+

@@ -1,0 +1,48 @@
+span.a {
+    display: inline;    /* The default for span elements */
+    width: 1000px;      /*no effect inline elements */
+    height: 500px;      /*no effect inline elements */
+    padding: 5px;
+    border: 1px solid red;
+    background-color: lightpink;
+}
+
+span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+
+span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid green;
+    background-color: lightgreen;
+}
+
+/* second example */
+.nav {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 14px;
+}
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+.nav li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+h1 {
+    color: darkblue;
+}
+
+div.one {
+    width: 500px;
+    border: 3px solid lightgreen;
+    margin: auto;
+}
+
+div.two {
+    max-width: 500px;
+    border: 3px solid lightcoral;
+    margin: auto;
+}

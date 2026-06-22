@@ -1,0 +1,65 @@
+/* with Rectangle */
+.div1 {
+    float: left;
+    padding: 10px;
+    border: 3px solid green;
+}
+.div2 {
+    padding: 10px;
+    border: 3px solid orange;
+}
+
+.div3 {
+    float: left;
+    padding: 10px;
+    border: 3px solid darkred;
+}
+.div4 {
+    padding: 10px;
+    border: 3px solid lawngreen;
+    clear: left;
+}
+
+/* with images */
+section {
+    padding: 5px;
+    border: 3px solid goldenrod;
+}
+.img1 {
+    width: 170px;
+    height: 170px;
+    float: right;
+}
+.img2 {
+    width: 190px;
+    height: 190px;
+    float: right;
+}
+.clearfix {
+    overflow: auto;
+}
+
+/* New Modern Clearfix */
+div.one, div.two {
+    border: 3px solid green;
+    padding: 5px;
+}
+.img3 {
+    width: 170px;
+    height: 170px;
+    float: right;
+}
+.img4 {
+    width: 170px;
+    height: 170px;
+    float: right;
+}
+/*
+ El nuevo y moderno clearfix hack sin embargo, es más seguro de usar,
+  y el siguiente código se utiliza para la mayoría de las páginas web
+*/
+div.two::after {
+    content: "";
+    clear: both;
+    display: table;
+}

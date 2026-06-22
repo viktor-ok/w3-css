@@ -1,0 +1,52 @@
+body {
+    background-color: gray;
+    color: #fff;
+    font-family: tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+
+div.one {
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    border: 1px solid black;
+    overflow: visible;
+    margin-bottom: 100px;
+}
+
+div.two {
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    border: 1px solid black;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+div.three {
+    width: 200px;
+    height: 100px;
+    background-color: coral;
+    border: 1px solid #000;
+    margin-bottom: 100px;
+    overflow: scroll;
+}
+
+div.four {
+    width: 200px;
+    height: 65px;
+    border: 1px solid #000;
+    background-color: coral;
+    margin-bottom: 100px;
+    overflow: auto;
+}
+
+div.five {
+    width: 200px;
+    height: 65px;
+    border: 1px solid #000;
+    background-color: coral;
+    margin-bottom: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

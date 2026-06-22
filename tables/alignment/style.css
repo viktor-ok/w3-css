@@ -1,0 +1,44 @@
+/* :horizontal alignment */
+body {
+    font-family: Tahoma, Arial, Helvetica, sans;
+}
+h1 {
+    color: darkred;
+}
+table.t, th.t, td.t {
+    border: 1px solid brown;
+    color: darkred;
+    height: 25px;
+}
+table.t {
+    width: 80%;
+    border-collapse: collapse;
+}
+table.t td.t {
+    text-align: center;
+}
+
+table.o, th.o, td.o {
+    border: 1px solid gray;
+}
+table.o {
+    width: 100%;
+    border-collapse: collapse;
+}
+table.o th.o {
+    text-align: left;
+}
+
+/* vertical alignment */
+table.v, th.v, td.v {
+    border: 1px solid blue;
+    color: darkblue;
+}
+table.v {
+    width: 70%;
+    border-collapse: collapse;
+}
+table.v td.v {
+    height: 40px;
+    vertical-align: bottom;
+}

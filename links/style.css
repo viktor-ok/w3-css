@@ -1,0 +1,47 @@
+p b a.one {
+    color: hotpink;
+}
+
+p b.two a:link {
+    background-color: yellow;
+}
+p b.two a:visited {
+    background-color: green;
+}
+p b.two a:hover {
+    background-color: red;
+}
+p b.two a:active {
+    background-color: blue;
+}
+
+p.three a:link, a:visited {
+    background-color: tomato;
+    color: #fff;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+p.three a:hover, a:active {
+    background-color: red;
+}
+
+p.four a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: tahoma, arial, sans-serif;
+    letter-spacing: 2px;
+}
+p.four a:hover, a:active {
+    background-color: green;
+    color: white;
+}

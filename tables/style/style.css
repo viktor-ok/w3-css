@@ -1,0 +1,61 @@
+h2 {
+    color: darkblue;
+}
+
+/* padding */
+table.a, th.a, td.a {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+table.a {
+    width: 100%;
+    border-collapse: collapse;
+}
+table.a th.a, td.a {
+    padding: 15px;
+}
+
+/* horizontal divider */
+table.b {
+    width: 100%;
+    border-collapse: collapse;
+}
+table.b th.b, td.b {
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    padding: 8px;
+}
+
+/* hover style.css */
+table.c {
+    width: 90%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+table.c th.c, td.c {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+table.c tr:hover {
+    cursor: crosshair;
+    background-color: gold;
+}
+table.c th.c {
+    background-color: red;
+    color: #fff;
+}
+
+/* table zebra */
+table.z {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 200px;
+}
+table.z th.z, td.z {
+    text-align: left;
+    padding: 8px;
+}
+table.z tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

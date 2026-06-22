@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+/* black nav bar */
+ul.one {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+}
+ul.one li {
+    float: left;
+    border-right: 1px solid #ddd;
+}
+ul.one li a {
+    display: block; /* Allows us to specify padding (and height, width, margins, etc. if you want) */
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul.one li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #04AA6D;
+}
+.one li:last-child {
+    float: right;
+    border-right: none;
+}
+

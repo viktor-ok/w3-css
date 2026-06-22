@@ -1,0 +1,31 @@
+:root {
+    background-color: #ccc;
+}
+
+/* pseudo selector last-child */
+div.one p:last-child {
+    color: blue;
+}
+
+/* pseudo selector :not() */
+div.two :not(p) {
+    color: green;
+}
+
+/* pseudo selector :nth-child() */
+.s p:nth-child(1) {
+    background-color: red;
+}
+
+li:nth-child(2) {
+    background-color: violet;
+}
+
+:nth-child(3) {
+    background-color: yellow;
+}
+
+/* pseudo :nth-last-child() */
+div.ele p:nth-last-child(4) {
+    background-color: gold;
+}

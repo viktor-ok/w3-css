@@ -1,0 +1,29 @@
+h2.title {
+    background-color: #eee;
+    border: 2px solid gray;
+    padding: 10px 40px;
+    display: inline-block;
+}
+p.sub {
+    font-size: 20px;
+}
+div.content {
+    background-color: lightgray;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+h2.title2 {
+    background-color: lightgreen;
+    border: 2px solid green;
+    padding: 20px 70px;
+    text-align: center;
+}
+div.para {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid grey;
+    margin: 0;
+}

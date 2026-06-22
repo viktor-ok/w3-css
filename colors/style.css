@@ -1,0 +1,78 @@
+
+h1 {
+    color: #fff;
+    background-color: dodgerblue;
+    text-align: center;
+}
+#lore {
+    color: #fafafa;
+    background-color: tomato;
+    text-align: center
+}
+
+h2 {
+    color: tomato;
+}
+.text1 {
+    color: dodgerblue;
+}
+.text2 {
+    color: mediumseagreen;
+}
+
+h1.one {
+    color: tomato;
+    border: 2px solid tomato;
+    background-color: transparent;
+    padding: 1rem;
+    text-align: left;
+}
+h1.two {
+    color: dodgerblue;
+    border: 2px solid dodgerblue;
+    background-color: transparent;
+    padding: 1rem;
+    text-align: center;
+}
+h1.three {
+    color: violet;
+    border: 2px solid violet;
+    background-color: transparent;
+    padding: 1rem;
+    text-align: right;
+}
+
+/* RGB colors */
+.red {
+    margin: 15px;
+    display: inline-block;
+    padding: 30px 80px 30px 80px; 
+    color: #fff;
+    border: 2px solid rgb(200, 0, 0);
+    background-color: rgb(210, 0, 0);
+}
+.green {
+    margin: 15px;
+    display: inline-block;
+    padding: 30px 80px 30px 80px; 
+    color: #fff;
+    border: 2px solid rgb(0, 200, 0);
+    background-color: rgb(0, 210, 0);
+}
+.blue {
+    margin: 15px;
+    display: inline-block;
+    padding: 30px 80px 30px 80px; 
+    color: #fff;
+    border: 2px solid rgb(0, 0, 200);
+    background-color: rgb(0, 0, 210);
+}
+.trans {
+    margin: 15px;
+    display: inline-block;
+    padding: 30px 80px 30px 80px; 
+    color: #fff;
+    border: 2px solid rgb(0, 0, 180);
+    background-color: rgba(0, 0, 170, 0.5);
+}
+

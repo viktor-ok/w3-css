@@ -1,0 +1,47 @@
+:root {
+    background-color: #f2f2f2;
+}
+
+/* ::first-line  */
+p.one-line::first-line {
+    color: red;
+    font-variant: small-caps;
+}
+
+/* ::first-letter */
+p.one-letter::first-letter {
+    color: blue;
+    font-size: xx-large;
+}
+
+/* both at the same time */
+p.combine::first-letter {
+    color: darkorange;
+    font-size: 2em;
+}
+p.combine::first-line {
+    color:  blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ::before and ::after */
+h1.b::before {
+    content: url("image/banana.gif");
+}
+h1.a::after {
+    content: url("image/gift-box.png");
+}
+
+/* ::marker */
+::marker {
+    color: green;
+    font-size: 1.5em;
+}
+
+/* ::selection */
+::selection {
+    color: darkblue;
+    background-color: lightblue;
+}
+
+

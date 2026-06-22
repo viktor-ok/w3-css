@@ -1,0 +1,38 @@
+p.one {
+    border: 1px solid blue;
+    background-color: gold;
+    margin: 25px 50px 75px 100px;
+}
+
+p.two {
+    border: 1px dashed black;
+    padding: 25;
+    margin: 25px 50px 75px;
+}
+
+p.three {
+    border: 2px solid greenyellow;
+    background-color: greenyellow;
+    margin: 25px 50px;
+}
+
+p.four {
+    border: 1px solid red;
+    background-color: red;
+    color: #fff;
+    margin: 150px;
+}
+
+div.auto {
+    border: 1px solid blue;
+    width: 300px;
+    margin: auto;
+}
+
+div.div_one {
+    border: 1px solid red;
+    margin-left: 100px;
+}
+p.elem {
+    margin-left: inherit;
+}

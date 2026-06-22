@@ -1,0 +1,17 @@
+div.t1 {
+    overflow-x: auto;
+}
+table.v {
+    width: 100%;
+    border-collapse: collapse;
+}
+table.v th.v, td.v {
+    padding: 8px;
+    text-align: left;
+}
+table.v tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+table.v caption {
+    caption-side: top;
+}

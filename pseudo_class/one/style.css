@@ -1,0 +1,53 @@
+/* Styling a link depending on state */
+a:link {
+    color: red;
+}
+a:visited {
+    color: orange;
+}
+a:hover {
+    color: darkmagenta;
+    font-size: 2em;
+}
+a:active {
+    color: green;
+}
+
+/* div hover element */
+div.one {
+    color: #fafafa;
+    padding: 20px;
+    font-family: tahoma;
+    font-size: 1.1em;
+    text-align: center;
+    background-color: green;
+}
+div.one:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+/* hover div p elements */
+p.prf {
+    display: none;
+    padding: 10px;
+    background-color: goldenrod;
+}
+div.two:hover p {
+    display: block;
+}
+
+/* pseudo-class first-child */
+div.main p:first-child {
+    color: blue;
+}
+
+p i:first-child {
+    color: green;
+}
+
+/* :lang pseudo class */
+q:lang(no) {
+    quotes: "~" "~";
+}
+

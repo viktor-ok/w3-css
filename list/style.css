@@ -1,0 +1,54 @@
+/* Unordered List */
+ul.a {
+    list-style-type: circle;
+}
+ul.b {
+    list-style-type: square;
+}
+
+/* Ordered List */
+ul.c {
+    list-style-type: upper-roman;
+}
+ul.d {
+    list-style-type: lower-alpha;
+}
+
+/* List Position */
+ul.e {
+    list-style-position: outside;
+}
+ul.f {
+    list-style-position: inside;
+}
+
+/* Remove default settings */
+ul.demo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling list with colors */
+
+ol.c1 {
+    background-color: #ff9999;
+    padding: 20px;
+}
+ol.c1 li {
+    background-color: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul.c2 {
+    background-color: #3399ff;
+    padding: 20px;
+}
+ul.c2 li {
+    background-color: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+    padding: 5px;
+}

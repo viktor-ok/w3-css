@@ -1,0 +1,50 @@
+/* position static */
+div.static {
+    position: static;
+    border: 2px solid darkred;
+}
+
+/* position relative */
+div.relative {
+    border: 3px solid green;
+    position: relative;
+    left: 50px;
+}
+
+/* position fixed */
+div.fixed {
+    width: 300px;
+    border: 3px solid pink;
+    position: fixed;
+    bottom: 14px;
+    right: 10px;
+}
+
+/* position absolute */
+div.relative-r {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid lightsalmon;
+}
+div.absolute-a {
+    width: 200px;
+    height: 100px;
+    border: 3px solid lightskyblue;
+    position: absolute;
+    right: 0;
+    top: 80px;
+}
+
+/* position sticky */
+div.text {
+    padding-bottom: 2000px;
+}
+div.sticky {
+    background-color: lightgreen;
+    padding: 8px;
+    border: 3px solid lime;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}

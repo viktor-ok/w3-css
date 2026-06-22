@@ -1,0 +1,26 @@
+body {
+    background-color: #fafafa;
+}
+
+div.gallery {
+    width: 180px;
+    margin: 5px;
+    border: 1px solid #909090;
+    float: left;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery:hover {
+    border-color: #000000;
+}
+
+div.gallery .msg {
+    color: #606060;
+    padding: 15px;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+}

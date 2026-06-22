@@ -1,0 +1,24 @@
+div.one {
+    border: 1px solid green;
+    height: 50px;
+    width: 100%;
+}
+div.two {
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+}
+div.three {
+    height: 100px;
+    width: 500px;
+    background-color: powderblue;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+div.four {
+    max-width: 500px;
+    height: 100px;
+    background-color: powderblue;
+}

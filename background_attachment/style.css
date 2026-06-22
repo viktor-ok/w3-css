@@ -1,0 +1,20 @@
+/*
+body {
+    background-image: url("../background_repeat/images/retoño.jpeg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll; fixed
+}
+*/
+
+/* Cuando se utiliza la propiedad abreviada, 'background' el orden de los valores de las propiedades es:
+    background-color
+    background-image
+    background-repeat
+    background-attachment
+    background-position
+*/
+
+body {
+  background: gray url("../background_repeat/images/retoño.jpeg") no-repeat scroll right top;
+}
